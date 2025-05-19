@@ -1,44 +1,32 @@
-[![Build Status](https://travis-ci.org/bodastage/bts-ce-lite.svg?branch=master)](https://travis-ci.org/bodastage/bts-ce-lite) ![GitHub release](https://img.shields.io/github/release/bodastage/bts-ce-lite.svg)  ![GitHub All Releases](https://img.shields.io/github/downloads/bodastage/bts-ce-lite/total.svg) [![GitHub license](https://img.shields.io/github/license/bodastage/bts-ce-lite.svg)](https://github.com/bodastage/bts-ce-lite/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/bodastage/bts-ce-lite.svg)](https://github.com/bodastage/bts-ce-lite/issues)
+[![Estado de la compilación](https://travis-ci.org/bodastage/bts-ce-lite.svg?branch=master)](https://travis-ci.org/bodastage/bts-ce-lite) ![Versión de GitHub](https://img.shields.io/github/release/bodastage/bts-ce-lite.svg) ![Todas las versiones de GitHub](https://img.shields.io/github/downloads/bodastage/bts-ce-lite/total.svg) [![Licencia de GitHub](https://img.shields.io/github/license/bodastage/bts-ce-lite.svg)](https://github.com/bodastage/bts-ce-lite/blob/master/LICENSE) [![GitHub Problemas](https://img.shields.io/github/issues/bodastage/bts-ce-lite.svg)](https://github.com/bodastage/bts-ce-lite/issues)
 
 # Boda-Lite
 
-Boda-Lite is a minimal feature version of [bts-ce](https://github.com/bodastage/bts-ce). It is a cross 
-platform telecommunication management desktop app.
+Boda-Lite es una versión con funcionalidades limitadas de [bts-ce](https://github.com/bodastage/bts-ce). Es una aplicación de escritorio multiplataforma para la gestión de telecomunicaciones.
 
-## Features
-* Parsing and loading telecommunication configuration management(CM) dumps for various vendors(Ericsson, Huawei, Nokia, ZTE)
-* Parsing and loading telecommunication performance management(PM) network dumps
-* Reports module that supports tabular, graphs, and composite(dashboard-like) reports
-* Advanced GIS module
-* Network baseline audit
-* Utilities: CSV to Excel, KML Generator
+## Características
+* Análisis y carga de volcados de gestión de configuración de telecomunicaciones (CM) para diversos proveedores (Ericsson, Huawei, Nokia, ZTE)
+* Análisis y carga de volcados de red de gestión del rendimiento de las telecomunicaciones (PM)
+* Módulo de informes que admite informes tabulares, gráficos y compuestos (similares a un panel de control)
+* Módulo GIS avanzado
+* Auditoría de línea base de red
+* Utilidades: Conversión de CSV a Excel, generador KML
 
-## Built with 
+## Desarrollado con
 * [Electron](https://electronjs.org)
 * [ReactJs](https://reactjs.org/)
 * [SQLite3](https://www.sqlite.org/index.html)
 
-## Screenshots 
+## Capturas de pantalla
 ![BTS-CE-Lite Dashboard and Reports](/dashboard_and_reports.png?raw=true "Dashboard and Reports")
 
-![BTS-CE-Lite GIS](/gis.jpeg?raw=true "GIS")
+![BTS-CE-Lite SIG](/gis.jpeg?raw=true "GIS")
 
-
-
-## Running dev mode
+## Ejecutando modo de desarrollo
 ``` bash
 export SKIP_PREFLIGHT_CHECK=true
-yarn run start 
+yarn run start
 
 #
 yarn run electron-dev-unix
 ```
-
-## Getting help
-To report issues with the application or request new features use the issue tracker. For help and customizations send an email to info@bodastage.com.
-
-## License
-
-[Apache 2.0](LICENSE.md)
-
-
